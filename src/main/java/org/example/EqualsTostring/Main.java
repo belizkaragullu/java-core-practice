@@ -21,6 +21,9 @@ public class Main {
         isSame = overridedPerson.equals(overridedPerson2);
         System.out.println(isSame);
 
+        System.out.println("First person hash code is " + overridedPerson.hashCode());
+        System.out.println("Second person hash code is " + overridedPerson2.hashCode());
+
 
 
 
