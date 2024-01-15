@@ -16,10 +16,14 @@ public class AutoboxUnbox {
         System.out.println("Unboxed int is " + unbox);
 
         String str = "10";
-        int num3 = Integer.parseInt(str); //take string convert to Integer
+        int num3 = Integer.parseInt(str); //String to Integer
 
         System.out.println("String 10 has been converted into a Integer " + num3);
         System.out.println("Converted Integer multiplied by two: " + num3 * 2);
+
+        int number =5;
+        String intToString = String.valueOf(number);
+        System.out.println("Primitive int has been converted into a String " + intToString); //int to String
 
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
