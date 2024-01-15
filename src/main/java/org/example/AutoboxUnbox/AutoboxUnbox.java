@@ -7,13 +7,13 @@ public class AutoboxUnbox {
     public static void main(String[] args) {
 
         int num = 7;
-        Integer num1 = num; //autoboxing: int to Integer
+        Integer autobox = num; //autoboxing: int to Integer
 
-        System.out.println("Autoboxed Integer is " + num1);
+        System.out.println("Autoboxed Integer is " + autobox);
 
-        int num2 = num1.intValue(); //auto-unboxing: Integer to int
+        int unbox = autobox.intValue(); //auto-unboxing: Integer to int
 
-        System.out.println("Unboxed int is " + num2);
+        System.out.println("Unboxed int is " + unbox);
 
         String str = "10";
         int num3 = Integer.parseInt(str); //take string convert to Integer
